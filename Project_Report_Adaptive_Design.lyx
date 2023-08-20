@@ -87,6 +87,9 @@ knitr
 \papercolumns 1
 \papersides 1
 \paperpagestyle fancy
+\bullet 0 4 21 -1
+\bullet 1 5 4 -1
+\bullet 2 2 29 -1
 \tracking_changes false
 \output_changes false
 \html_math_output 0
@@ -425,7 +428,7 @@ Diagram illustrating Play-The-Winner Rule
 \begin_inset Graphics
 	filename D:/Sem 5 notes and papers/Soft projects sem5/AB sir clinical/AB presentation files/An-Overview-of-Adaptive-Designs-in-Clinical-Trials-main/Play_The_Winner_Rule.pdf
 	lyxscale 20
-	scale 20
+	scale 40
 
 \end_inset
 
@@ -522,7 +525,7 @@ status open
 \begin_inset Graphics
 	filename D:/Sem 5 notes and papers/Soft projects sem5/AB sir clinical/AB presentation files/An-Overview-of-Adaptive-Designs-in-Clinical-Trials-main/Rplot3.pdf
 	lyxscale 50
-	scale 30
+	scale 50
 
 \end_inset
 
@@ -641,7 +644,7 @@ Diagram illustrating Randomized play-the-winner Rule
 \begin_inset Graphics
 	filename D:/Sem 5 notes and papers/Soft projects sem5/AB sir clinical/AB presentation files/An-Overview-of-Adaptive-Designs-in-Clinical-Trials-main/Randomized_Play_The_Winner_Rule.pdf
 	lyxscale 25
-	scale 35
+	scale 40
 
 \end_inset
 
@@ -721,7 +724,7 @@ status open
 \begin_inset Graphics
 	filename D:/Sem 5 notes and papers/Soft projects sem5/AB sir clinical/AB presentation files/An-Overview-of-Adaptive-Designs-in-Clinical-Trials-main/Rplot5.pdf
 	lyxscale 50
-	scale 30
+	scale 50
 
 \end_inset
 
@@ -830,7 +833,7 @@ Drop-The-Loser Rule
 \begin_inset Graphics
 	filename D:/Sem 5 notes and papers/Soft projects sem5/AB sir clinical/AB presentation files/An-Overview-of-Adaptive-Designs-in-Clinical-Trials-main/Drop_The_Loser.pdf
 	lyxscale 35
-	scale 35
+	scale 40
 
 \end_inset
 
@@ -1326,7 +1329,7 @@ status open
 \begin_inset Graphics
 	filename D:/Sem 5 notes and papers/Soft projects sem5/AB sir clinical/AB presentation files/An-Overview-of-Adaptive-Designs-in-Clinical-Trials-main/Rplot7.pdf
 	lyxscale 50
-	scale 30
+	scale 50
 
 \end_inset
 
@@ -1579,7 +1582,7 @@ status open
 \begin_inset Graphics
 	filename D:/Sem 5 notes and papers/Soft projects sem5/AB sir clinical/AB presentation files/An-Overview-of-Adaptive-Designs-in-Clinical-Trials-main/Rplot8.pdf
 	lyxscale 50
-	scale 30
+	scale 50
 
 \end_inset
 
@@ -1634,7 +1637,7 @@ status open
 \begin_inset Graphics
 	filename D:/Sem 5 notes and papers/Soft projects sem5/AB sir clinical/AB presentation files/An-Overview-of-Adaptive-Designs-in-Clinical-Trials-main/Rplot11.pdf
 	lyxscale 50
-	scale 30
+	scale 50
 
 \end_inset
 
@@ -1684,7 +1687,7 @@ status open
 \begin_inset Graphics
 	filename D:/Sem 5 notes and papers/Soft projects sem5/AB sir clinical/AB presentation files/An-Overview-of-Adaptive-Designs-in-Clinical-Trials-main/Rplot9.pdf
 	lyxscale 50
-	scale 30
+	scale 50
 
 \end_inset
 
@@ -1742,7 +1745,7 @@ status open
 \begin_inset Graphics
 	filename D:/Sem 5 notes and papers/Soft projects sem5/AB sir clinical/AB presentation files/An-Overview-of-Adaptive-Designs-in-Clinical-Trials-main/Rplot12.pdf
 	lyxscale 50
-	scale 30
+	scale 50
 
 \end_inset
 
@@ -1799,7 +1802,7 @@ status open
 \begin_inset Graphics
 	filename D:/Sem 5 notes and papers/Soft projects sem5/AB sir clinical/AB presentation files/An-Overview-of-Adaptive-Designs-in-Clinical-Trials-main/Rplot15.pdf
 	lyxscale 50
-	scale 30
+	scale 50
 
 \end_inset
 
