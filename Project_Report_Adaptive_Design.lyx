@@ -121,7 +121,7 @@ Final year student, B.Sc.
 \begin_inset Newline newline
 \end_inset
 
-Roll: STAT14
+Roll: STAT29
 \begin_inset Newline newline
 \end_inset
 
@@ -152,9 +152,55 @@ Statistical Manager at GSK India Global Services Pvt.
 \begin_layout Standard
 \noindent
 \align center
+A Project Report Submitted in the 5th Semester of
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size large
+BACHELOR OF SCIENCE
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -6mm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\shape slanted
+in
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -6mm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size large
+STATISTICS
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
 \begin_inset Graphics
 	filename F:/Project Arnab/Dataset/Presidency_University,_Kolkata_Logo.svg
-	scale 75
+	scale 55
 
 \end_inset
 
@@ -171,7 +217,7 @@ DEPARTMENT OF STATISTICS
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace 32mm
+\begin_inset VSpace 20mm
 \end_inset
 
 
