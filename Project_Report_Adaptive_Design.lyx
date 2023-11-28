@@ -8,8 +8,8 @@
 \begin_preamble
 \usepackage{titling}
 \fancyhf{}               % Clear fancy header/footer
-\fancyhead[L]{Regression Project}   % My name in Left footer
-\fancyhead[R]{IIT Kanpur}
+\fancyhead[L]{Clinical Trials}   % My name in Left footer
+\fancyhead[R]{Presidency University}
 \fancyfoot[C]{\thepage}  % Page number in Right footer
 \fancyfoot[L]{Niranjan Dey}  % Page number in Right footer
 \makeatletter
@@ -100,15 +100,94 @@ knitr
 \begin_body
 
 \begin_layout Title
+
+\series bold
 An Overview of Adaptive Designs
 \end_layout
 
 \begin_layout Author
-Niranjan Dey 
+Niranjan Dey
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Final year student, B.Sc.
+ Statistics Presidency University, Kolkata
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+Roll: STAT14
+\begin_inset Newline newline
+\end_inset
+
+Reg.
+ No.: 18214110029
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Supervisor: 
+\series default
+Dr.
+ Arunangshu Biswas
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Statistical Manager at GSK India Global Services Pvt.
+ Ltd.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename F:/Project Arnab/Dataset/Presidency_University,_Kolkata_Logo.svg
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 0.75
+\noindent
+\align center
+
+\series bold
+DEPARTMENT OF STATISTICS 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 32mm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 \paragraph_spacing other 0.1
+
+\color blue
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
 
@@ -224,13 +303,6 @@ Drop-the-loser rule.
 
 \end_deeper
 \end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
 \begin_layout Itemize
 
 \series bold
@@ -268,13 +340,6 @@ Doubly adaptive biased coin design.
 
 \end_deeper
 \end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
 \begin_layout Itemize
 Let 
 \begin_inset Formula $p_{A}$
@@ -404,15 +469,26 @@ failure
 
 \end_deeper
 \begin_layout Standard
-\begin_inset Separator plain
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/Sem 5 notes and papers/Soft projects sem5/AB sir clinical/AB presentation files/An-Overview-of-Adaptive-Designs-in-Clinical-Trials-main/Play_The_Winner_Rule.pdf
+	lyxscale 20
+	scale 35
+
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Argument 4
-status open
+\begin_layout Plain Layout
+\begin_inset Caption Standard
 
 \begin_layout Plain Layout
 Diagram illustrating Play-The-Winner Rule
@@ -423,20 +499,6 @@ Diagram illustrating Play-The-Winner Rule
 
 \end_layout
 
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename D:/Sem 5 notes and papers/Soft projects sem5/AB sir clinical/AB presentation files/An-Overview-of-Adaptive-Designs-in-Clinical-Trials-main/Play_The_Winner_Rule.pdf
-	lyxscale 20
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator plain
 \end_inset
 
 
@@ -480,6 +542,10 @@ Since, here we have taken
 \begin_inset Formula $\frac{q_{B}}{q_{A}+q_{B}}=\frac{0\cdot4}{1\cdot1}=\frac{4}{11}\approx0\cdot364$
 \end_inset
 
+ and treatment B must converge to 
+\begin_inset Formula $\frac{q_{A}}{q_{A}+q_{B}}=\frac{0\cdot7}{1\cdot1}=\frac{7}{11}\approx0\cdot636$
+\end_inset
+
 .
 \end_layout
 
@@ -495,27 +561,8 @@ We try to validate the above statements using simulation and plot the allocation
 
 \end_deeper
 \begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Play-The-Winner Rule
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -523,9 +570,9 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Sem 5 notes and papers/Soft projects sem5/AB sir clinical/AB presentation files/An-Overview-of-Adaptive-Designs-in-Clinical-Trials-main/Rplot3.pdf
+	filename An-Overview-of-Adaptive-Designs-in-Clinical-Trials-main/Rplot3.pdf
 	lyxscale 50
-	scale 50
+	scale 45
 
 \end_inset
 
@@ -556,13 +603,6 @@ Plot of
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator plain
 \end_inset
 
 
@@ -620,15 +660,31 @@ is added to the urn.
 
 \end_deeper
 \begin_layout Standard
-\begin_inset Separator plain
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/Sem 5 notes and papers/Soft projects sem5/AB sir clinical/AB presentation files/An-Overview-of-Adaptive-Designs-in-Clinical-Trials-main/Randomized_Play_The_Winner_Rule.pdf
+	lyxscale 25
+	scale 35
+
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Argument 4
-status open
+\begin_layout Plain Layout
+\begin_inset Caption Standard
 
 \begin_layout Plain Layout
 Diagram illustrating Randomized play-the-winner Rule
@@ -639,20 +695,6 @@ Diagram illustrating Randomized play-the-winner Rule
 
 \end_layout
 
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename D:/Sem 5 notes and papers/Soft projects sem5/AB sir clinical/AB presentation files/An-Overview-of-Adaptive-Designs-in-Clinical-Trials-main/Randomized_Play_The_Winner_Rule.pdf
-	lyxscale 25
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator plain
 \end_inset
 
 
@@ -673,7 +715,7 @@ as the play-the-winner rule i.e
 \begin_deeper
 \begin_layout Itemize
 We simulate for the parameter values 
-\begin_inset Formula $p_{A}=0.2,p_{B}=0.4$
+\begin_inset Formula $p_{A}=0.3,p_{B}=0.6$
 \end_inset
 
 .
@@ -682,11 +724,11 @@ We simulate for the parameter values
 \begin_layout Itemize
 So from theoritical perspective, the observed allocation proportion for
  Treatment A must get closer to 
-\begin_inset Formula $\frac{q_{B}}{q_{A}+q_{B}}=\frac{0.6}{1.4}\approx0.429$
+\begin_inset Formula $\frac{q_{B}}{q_{A}+q_{B}}=\frac{0\cdot4}{1\cdot1}=\frac{4}{11}\approx0\cdot364$
 \end_inset
 
  and for Treatment B, closer to 
-\begin_inset Formula $\frac{q_{A}}{q_{A}+q_{B}}\approx0.571$
+\begin_inset Formula $\frac{q_{A}}{q_{A}+q_{B}}=\frac{0\cdot7}{1\cdot1}=\frac{7}{11}\approx0\cdot636$
 \end_inset
 
 .
@@ -694,27 +736,8 @@ So from theoritical perspective, the observed allocation proportion for
 
 \end_deeper
 \begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Randomized play-the-winner Rule
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -722,9 +745,9 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Sem 5 notes and papers/Soft projects sem5/AB sir clinical/AB presentation files/An-Overview-of-Adaptive-Designs-in-Clinical-Trials-main/Rplot5.pdf
+	filename An-Overview-of-Adaptive-Designs-in-Clinical-Trials-main/Rplot6.pdf
 	lyxscale 50
-	scale 50
+	scale 45
 
 \end_inset
 
@@ -754,13 +777,6 @@ status open
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator plain
 \end_inset
 
 
@@ -809,15 +825,27 @@ If it is an actual treatment ball, a patient is assigned to corresponding
 
 \end_deeper
 \begin_layout Standard
-\begin_inset Separator plain
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/Sem 5 notes and papers/Soft projects sem5/AB sir clinical/AB presentation files/An-Overview-of-Adaptive-Designs-in-Clinical-Trials-main/Drop_The_Loser.pdf
+	lyxscale 35
+	scale 35
+
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Argument 4
-status open
+\begin_layout Plain Layout
+\begin_inset Caption Standard
 
 \begin_layout Plain Layout
 Drop-The-Loser Rule
@@ -828,20 +856,6 @@ Drop-The-Loser Rule
 
 \end_layout
 
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename D:/Sem 5 notes and papers/Soft projects sem5/AB sir clinical/AB presentation files/An-Overview-of-Adaptive-Designs-in-Clinical-Trials-main/Drop_The_Loser.pdf
-	lyxscale 35
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator plain
 \end_inset
 
 
@@ -912,13 +926,6 @@ They shift the allocation probability to better treatments.
 \end_layout
 
 \end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Some Drawbacks of Designs Based on Urn Models
 \end_layout
@@ -983,13 +990,6 @@ Consider the situation when two binomials are compared and the measure of
 \end_layout
 
 \end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
 \begin_layout Itemize
 Let 
 \begin_inset Formula $\widehat{p}_{A}$
@@ -1051,13 +1051,6 @@ scheme is that for some values of
 \end_layout
 
 \end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
 \begin_layout Itemize
 Another goal, a compromise between the ethical goal and efficiency, is to
  minimize the expected number of failures for a fixed variance of 
@@ -1238,13 +1231,6 @@ Then we allocate the
 \end_layout
 
 \end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
 \begin_layout Itemize
 From the invariance property of 
 \begin_inset Formula $MLE$
@@ -1299,13 +1285,6 @@ So, theoritical the limiting proportions must be equal to
 
 \end_deeper
 \begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Argument 4
 status open
 
@@ -1320,6 +1299,7 @@ Allocation Proportion in SML Procedure
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1329,7 +1309,7 @@ status open
 \begin_inset Graphics
 	filename D:/Sem 5 notes and papers/Soft projects sem5/AB sir clinical/AB presentation files/An-Overview-of-Adaptive-Designs-in-Clinical-Trials-main/Rplot7.pdf
 	lyxscale 50
-	scale 50
+	scale 45
 
 \end_inset
 
@@ -1409,13 +1389,6 @@ Let
 \end_layout
 
 \end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
 \begin_layout Itemize
 Let 
 \begin_inset Formula $\widehat{\rho}$
@@ -1487,13 +1460,6 @@ g\left(x,y\right)=\frac{y\left(\nicefrac{y}{x}\right)^{\gamma}}{y\left(\nicefrac
 \end_layout
 
 \end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
 \begin_layout Itemize
 Suppose the 
 \begin_inset Formula $\left(j+1\right)^{th}$
@@ -1573,6 +1539,7 @@ At the extreme, when
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1582,7 +1549,7 @@ status open
 \begin_inset Graphics
 	filename D:/Sem 5 notes and papers/Soft projects sem5/AB sir clinical/AB presentation files/An-Overview-of-Adaptive-Designs-in-Clinical-Trials-main/Rplot8.pdf
 	lyxscale 50
-	scale 50
+	scale 45
 
 \end_inset
 
@@ -1610,7 +1577,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Separator plain
+\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -1628,6 +1595,7 @@ As
 
 
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1637,7 +1605,7 @@ status open
 \begin_inset Graphics
 	filename D:/Sem 5 notes and papers/Soft projects sem5/AB sir clinical/AB presentation files/An-Overview-of-Adaptive-Designs-in-Clinical-Trials-main/Rplot11.pdf
 	lyxscale 50
-	scale 50
+	scale 45
 
 \end_inset
 
@@ -1662,13 +1630,6 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 For quite large values of 
 \begin_inset Formula $\gamma\left(=10\right)$
 \end_inset
@@ -1678,6 +1639,7 @@ For quite large values of
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1687,7 +1649,7 @@ status open
 \begin_inset Graphics
 	filename D:/Sem 5 notes and papers/Soft projects sem5/AB sir clinical/AB presentation files/An-Overview-of-Adaptive-Designs-in-Clinical-Trials-main/Rplot9.pdf
 	lyxscale 50
-	scale 50
+	scale 45
 
 \end_inset
 
@@ -1715,7 +1677,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Separator plain
+\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -1736,6 +1698,7 @@ Smaller the difference between
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1745,7 +1708,7 @@ status open
 \begin_inset Graphics
 	filename D:/Sem 5 notes and papers/Soft projects sem5/AB sir clinical/AB presentation files/An-Overview-of-Adaptive-Designs-in-Clinical-Trials-main/Rplot12.pdf
 	lyxscale 50
-	scale 50
+	scale 45
 
 \end_inset
 
@@ -1756,7 +1719,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-\begin_inset Formula $p_{A}=0\cdot6,p_{B}=0\cdot7,\boldsymbol{\gamma=0}$
+\begin_inset Formula $p_{A}=0.6,p_{B}=0.7,\boldsymbol{\gamma=0}$
 \end_inset
 
 
@@ -1767,13 +1730,6 @@ status open
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator plain
 \end_inset
 
 
@@ -1793,6 +1749,7 @@ So to stabilize the procedure, we require even larger values of
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1802,7 +1759,7 @@ status open
 \begin_inset Graphics
 	filename D:/Sem 5 notes and papers/Soft projects sem5/AB sir clinical/AB presentation files/An-Overview-of-Adaptive-Designs-in-Clinical-Trials-main/Rplot15.pdf
 	lyxscale 50
-	scale 50
+	scale 45
 
 \end_inset
 
@@ -1886,13 +1843,6 @@ variability of the procedure
 \end_layout
 
 \end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
 \begin_layout Itemize
 The drop-the-loser rule has minimum variability (lower bound) in the class
  of all response-adaptive procedures targeting urn allocation 
@@ -1918,13 +1868,6 @@ At the extreme, when
 \end_layout
 
 \end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
 \begin_layout Itemize
 As 
 \begin_inset Formula $\gamma$
@@ -1991,13 +1934,6 @@ expected treatment successes
 
 \end_deeper
 \end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Sample Size of Adaptive Designs
 \end_layout
@@ -2091,12 +2027,5 @@ The properties of doubly adaptive biased coin design with delayed responses
 \end_layout
 
 \end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
 \end_body
 \end_document
